@@ -1,8 +1,6 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Scanner;
-import java.util.StringTokenizer;
 
 public class App {
     public static void main(String[] args) throws IOException {
@@ -26,6 +24,7 @@ public class App {
             input = br.readLine();
         }
         System.out.println(maxCalories);
+        br.close();
         
     }
 }
